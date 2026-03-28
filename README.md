@@ -2,15 +2,14 @@
 
 ## 📌 Overview
 
-This project is part of the **CodeAlpha DevOps Internship**.
-It demonstrates how to build and automate a Java application using **Gradle** and integrate it with a **CI/CD pipeline using GitHub Actions**.
+This project demonstrates building a Java application using **Gradle** and integrating it with a **CI/CD pipeline using GitHub Actions**.
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Java (JDK 17)
-* Gradle (Build Tool)
+* Java (JDK 17+)
+* Gradle
 * Git & GitHub
 * GitHub Actions (CI/CD)
 
@@ -18,11 +17,10 @@ It demonstrates how to build and automate a Java application using **Gradle** an
 
 ## ⚙️ Features
 
-* ✅ Automated build using Gradle
-* ✅ Dependency management
-* ✅ Continuous Integration (CI) with GitHub Actions
-* ✅ Cross-platform build using Gradle Wrapper
-* ✅ Clean and simple project structure
+* Automated build using Gradle
+* Dependency management
+* CI/CD pipeline with GitHub Actions
+* Cross-platform execution using Gradle Wrapper
 
 ---
 
@@ -31,78 +29,54 @@ It demonstrates how to build and automate a Java application using **Gradle** an
 ```
 CodeAlpha_JavaGradleApp/
 │
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-│
-├── src/
-│   └── main/
-│       └── java/
-│           └── App.java
-│
+├── .github/workflows/ci.yml
+├── assets/images/
+├── src/main/java/App.java
 ├── build.gradle
 ├── settings.gradle
 ├── gradlew
 ├── gradlew.bat
-└── gradle/
 ```
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 Run Locally
 
-### 1️⃣ Clone the repository
-
-```
-git clone https://github.com/YOUR_USERNAME/CodeAlpha_JavaGradleApp.git
-cd CodeAlpha_JavaGradleApp
-```
-
-### 2️⃣ Run the application
-
-```
+```bash
+git clone https://github.com/YOUR_USERNAME/codealpha-java-gradle.git
+cd codealpha-java-gradle
 ./gradlew run
 ```
 
-### 💻 On Windows:
-
-```
-gradlew run
-```
-
 ---
 
-## 🔨 Build the Project
+## 🔨 Build
 
-```
+```bash
 ./gradlew build
 ```
 
-✔️ This will:
+---
 
-* Compile the project
-* Run tests
-* Generate build files
+## 🔄 CI/CD
+
+Pipeline runs automatically on every push using GitHub Actions.
 
 ---
 
-## 🔄 CI/CD Pipeline
+## 📸 Screenshots
 
-This project uses **GitHub Actions** to automatically:
+### Gradle Build Success
 
-* Build the project on every push
-* Ensure the code works correctly
-* Maintain continuous integration
+![Gradle Build](assets/images/gradle-build-success.png)
 
-📌 Workflow file:
+### GitHub Actions Success
 
-```
-.github/workflows/ci.yml
-```
+![CI](assets/images/github-actions-success.png)
 
 ---
 
-## 📸 Sample Output
+## 📊 Output
 
 ```
 Hello CodeAlpha DevOps 🚀
@@ -110,24 +84,8 @@ Hello CodeAlpha DevOps 🚀
 
 ---
 
-## 🎯 Internship Task Coverage
-
-This project fulfills the following requirements:
-
-* ✔️ Automate Java builds using Gradle
-* ✔️ Manage dependencies
-* ✔️ Integrate CI/CD pipeline
-* ✔️ Streamline build process
-
----
-
 ## 👨‍💻 Author
 
-**Ahmed Hamed**
+Ahmed Hamed
 
----
-
-## ⭐ Acknowledgment
-
-This project is completed as part of the **CodeAlpha DevOps Internship Program**.
 
